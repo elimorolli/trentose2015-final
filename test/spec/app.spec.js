@@ -3,8 +3,11 @@
 
 describe("Santa", function() {
 
-  it("should...", function() {  
+  it("Dovrebbe venire la prima domanda", function() {  
+      expect(getCurrentRequest(1)).toBe("Julia wants a doll. Shall I pack a barbie?")
     
   });    
+    
+    
  
 });
